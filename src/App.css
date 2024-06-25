@@ -36,3 +36,44 @@
     transform: rotate(360deg);
   }
 }
+
+
+.bg-col1, .bg-col2, .bg-col3, .bg-col4 {
+  background-image: none;
+}
+
+
+.bg-col1:hover, .bg-col1:focus,.bg-col1-selected {
+  background-image: url('../public/stark_anime.png');
+  background-position: bottom right;
+  background-repeat: no-repeat;
+
+}
+
+
+.bg-col2:hover,.bg-col2-selected {
+  background-image: url('../public/game_brain.png');
+  background-repeat: no-repeat;
+  background-position: bottom right;
+}
+
+.bg-col3:hover,.bg-col3-selected {
+  background-image: url('../public/col3_girl.png');
+  background-position: bottom right;
+  background-repeat: no-repeat;
+
+}
+
+.bg-col4:hover,.bg-col4-selected {
+  background-image: url('../public/col4_girl.png');
+  background-position: bottom right;
+  background-repeat: no-repeat;
+ 
+}
+
+.about-sidemenu {
+  background-image: url('../public/stark_anime.png');
+  background-position: bottom right;
+  background-repeat: no-repeat;
+
+}
