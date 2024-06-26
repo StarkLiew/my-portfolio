@@ -1,6 +1,6 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
-import { LaravelIcon, NodejsIcon, ReactjsIcon, PythonIcon, DockerIcon, AwsIcon, AzureIcon, TailwindIcon } from '../Components/DevIconss';
+import { LaravelIcon, NodejsIcon, ReactjsIcon, PythonIcon, DockerIcon, AwsIcon, AzureIcon, TailwindIcon } from '../Components/DevIcons';
+import Menu from '../Components/Menu';
 
 const About: React.FC = () => {
 
@@ -26,21 +26,26 @@ const About: React.FC = () => {
                                 I am a versatile full stack developer and certified product owner with over 10 years of experience in the complete lifecycle of web, Web3, and AI product development. My expertise has been instrumental in helping a startup company in Switzerland become the runner-up in the Huawei App Challenge in 2020. I possess extensive knowledge of various business processes, including CRM, ERP, and payroll systems. Additionally, I have a solid background in working with older database systems and performing ETL operations.
 
                             </p>
+                            <br /><br />
                             <p>
                                 Key Skills: <br /><br />
-                                Full Stack Development: Proficient in front-end and back-end technologies, ensuring seamless integration and functionality across web applications.
-                                Web3 Technologies: Experienced in blockchain development and decentralized applications.
-                                AI Product Development: Skilled in integrating artificial intelligence to enhance product capabilities and user experiences.
-                                Business Process Knowledge: Deep understanding of CRM, ERP, and payroll systems, enabling efficient and effective business operations.
-                                ETL Processes: Expertise in data extraction, transformation, and loading, particularly with legacy systems.
+                                <ul className="m-5">
+                                    <li>Full Stack Development: Proficient in front-end and back-end technologies, ensuring seamless integration and functionality across web applications.</li>
+                                    <li>Web3 Technologies: Experienced in blockchain development and decentralized applications.</li>
+                                    <li>AI Product Development: Skilled in integrating artificial intelligence to enhance product capabilities and user experiences.</li>
+                                    <li>Business Process Knowledge: Deep understanding of CRM, ERP, and payroll systems, enabling efficient and effective business operations.</li>
+                                    <li>ETL Processes: Expertise in data extraction, transformation, and loading, particularly with legacy systems.</li>
+                                </ul>
                             </p>
+                            <br /><br />
                             <p>
 
                                 Professional Highlights:<br /><br />
-                                Huawei App Challenge 2020: Played a key role in a Swiss startup's achievement as the runner-up in this prestigious competition.
-                                Certified Product Owner: Successfully managed product development processes, ensuring alignment with business goals and user needs.
-                                Cross-Functional Expertise: Adept at bridging the gap between technical and business teams, fostering collaboration and innovation.
-
+                                <ul className="m-5">
+                                    <li>Huawei App Challenge 2020: Played a key role in a Swiss startup's achievement as the runner-up in this prestigious competition.</li>
+                                    <li>Certified Product Owner: Successfully managed product development processes, ensuring alignment with business goals and user needs.</li>
+                                    <li>Cross-Functional Expertise: Adept at bridging the gap between technical and business teams, fostering collaboration and innovation.</li>
+                                </ul>
                             </p>
                         </div>
                         <div className="m-10">
@@ -77,11 +82,7 @@ const About: React.FC = () => {
                     </div>
 
                     <div >
-                        <ul>
-                            <li>
-                                <Link to="/" className="group relative flex gap-x-6 rounded-lg p-4 hover:bg-red-300">Home</Link>
-                            </li>
-                        </ul>
+                        <Menu />
                     </div>
 
 
