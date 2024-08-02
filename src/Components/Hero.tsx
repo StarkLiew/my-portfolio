@@ -40,7 +40,7 @@ const Hero: React.FC = () => {
                         <p>from 2017 - 10 completed</p>
                     </div>
                     <div className="w-full">
-                        <Link to="/projects"><DownCircle /></Link>
+                        <Link to="/project"><DownCircle /></Link>
                     </div>
 
                 </div>
