@@ -8,14 +8,14 @@ const Project: React.FC = () => {
             <div className="flex w-full h-screen" >
 
 
-                <div className=" bg-yellow-700 bg-col3-selected  bg-[length:10%] text-white max-sm:show md:hidden lg:hidden">
+                <div className=" bg-green-700 bg-col3-selected  bg-[length:10%] text-white max-sm:show md:hidden lg:hidden">
                     <div className="mx-5 border-white ">
                         <h1 className="text-3xl">{`{ Delivered }`}</h1>
 
                     </div>
                 </div>
 
-                <div className="flex-none p-5 h-full max-w-sm bg-yellow-700 bg-col3-selected text-white bg-[length:50%]  max-sm:hidden max-md:hidden lg:show">
+                <div className="flex-none p-5 h-full max-w-sm bg-green-700 bg-col3-selected text-white bg-[length:50%]  max-sm:hidden max-md:hidden lg:show">
                     <div className="mx-5 border-white ">
                         <h1 className="text-3xl">{`{ Delivered }`}</h1>
                         <p>Delivered Projects </p>
