@@ -10,7 +10,7 @@ const Timeline: React.FC = () => {
                 <div className="flex-start flex items-center pt-3">
                     <div className="-ml-[5px] mr-3 h-[9px] w-[9px] rounded-full bg-neutral-300 dark:bg-neutral-500"></div>
                     <p className="text-sm text-neutral-500 dark:text-neutral-300">
-                        Apr 2022
+                        Dec 2023
                     </p>
                 </div>
                 <div className="mb-6 ml-4 mt-2">
@@ -19,7 +19,7 @@ const Timeline: React.FC = () => {
                     </h4>
                     <p className="mb-3 text-neutral-500 dark:text-neutral-300">
                         Sponsors: Xobaedi Sarl <br />
-                        Delivered: Sep 2023 <br /><br />
+                        Delivered: On-going <br /><br />
                         <a className="bg-gray-300 hover:bg-gray-400 text-gray-800 font-bold py-2 px-4 rounded-l" href="https://www.impressoapp.com/nft">Learn more</a>
                     </p>
                     <div className="flex flex-wrap place-content-center gap-4">
