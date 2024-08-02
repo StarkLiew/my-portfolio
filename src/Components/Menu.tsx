@@ -11,10 +11,10 @@ const Menu: React.FC = () => {
                 <Link to="/about" className="group relative flex gap-x-6  rounded-lg p-4 hover:bg-red-300">Portfolio</Link>
             </li>
             <li>
-                <Link to="/game" className="group relative flex gap-x-6 rounded-lg p-4 hover:bg-red-300">Game</Link>
+                <Link to="/article" className="group relative flex gap-x-6 rounded-lg p-4 hover:bg-red-300">Reading</Link>
             </li>
             <li>
-                <Link to="/projects" className="group relative flex gap-x-6 rounded-lg p-4 hover:bg-red-300">Delivered</Link>
+                <Link to="/project" className="group relative flex gap-x-6 rounded-lg p-4 hover:bg-red-300">Delivered</Link>
             </li>
             <li>
                 <Link to="/contact" className="group relative flex gap-x-6 rounded-lg p-4 hover:bg-red-300">Team Up</Link>

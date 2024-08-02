@@ -23,13 +23,12 @@ const Hero: React.FC = () => {
 
                 <div className="flex flex-wrap p-5 bg-black hover:bg-yellow-700  bg-col2 bg-[length:15%] sm:bg-[length:15%] md:bg-[length:10%] lg:bg-[length:50%]">
                     <div className="mx-5 w-full border-white">
-                        <h1 className="text-3xl">{`{ Game }`}</h1>
-                        <p>Eidetic a reactjs game <br />
-                            blowing your neutron</p>
+                        <h1 className="text-3xl">{`{ Reading }`}</h1>
+                        <p>Learn new things and solve new problems</p>
                     </div>
 
                     <div className="w-full">
-                        <Link to="/game"><DownCircle /></Link>
+                        <Link to="/article"><DownCircle /></Link>
                     </div>
 
                     
